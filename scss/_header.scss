@@ -1,0 +1,15 @@
+@import "_mixin";
+
+// Header INDEX
+.headerIndex {
+  background-image: url(../imgs/productos/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  @extend %header;
+}
+
+// Header GENERAL
+.header {
+  @extend %header;
+}

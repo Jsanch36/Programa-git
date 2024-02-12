@@ -1,0 +1,567 @@
+@charset "UTF-8";
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerIndex .mayorista,
+.header .mayorista,
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.headerIndex,
+.header {
+  background-color: #f2f4f4;
+  font-size: 20px;
+}
+.headerIndex .mayorista,
+.header .mayorista {
+  color: #fff;
+  background-color: #000;
+  height: 40px;
+}
+.headerIndex .mayorista h3,
+.header .mayorista h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.headerIndex .nav-ColorRgba,
+.header .nav-ColorRgba {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerIndex .container-fluid,
+.header .container-fluid {
+  width: 35%;
+}
+.headerIndex .container-fluid a,
+.header .container-fluid a {
+  color: #000;
+}
+.headerIndex .container-fluid a img,
+.header .container-fluid a img {
+  width: 120px;
+  height: 60px;
+}
+.headerIndex .container-fluid .li-sinEstilo,
+.header .container-fluid .li-sinEstilo {
+  list-style-type: none;
+}
+.headerIndex .container-fluid .ultimoA,
+.header .container-fluid .ultimoA {
+  width: 50vh;
+}
+
+.headerIndex {
+  background-image: url(../imgs/productos/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.headerIndex .mayorista,
+.header .mayorista,
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.headerIndex,
+.header {
+  background-color: #f2f4f4;
+  font-size: 20px;
+}
+.headerIndex .mayorista,
+.header .mayorista {
+  color: #fff;
+  background-color: #000;
+  height: 40px;
+}
+.headerIndex .mayorista h3,
+.header .mayorista h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.headerIndex .nav-ColorRgba,
+.header .nav-ColorRgba {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerIndex .container-fluid,
+.header .container-fluid {
+  width: 35%;
+}
+.headerIndex .container-fluid a,
+.header .container-fluid a {
+  color: #000;
+}
+.headerIndex .container-fluid a img,
+.header .container-fluid a img {
+  width: 120px;
+  height: 60px;
+}
+.headerIndex .container-fluid .li-sinEstilo,
+.header .container-fluid .li-sinEstilo {
+  list-style-type: none;
+}
+.headerIndex .container-fluid .ultimoA,
+.header .container-fluid .ultimoA {
+  width: 50vh;
+}
+
+.cRedes {
+  height: 110px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.cRedes .rowRedes .colRedesIzq {
+  text-align: end;
+}
+.cRedes .rowRedes a {
+  color: #fff;
+  text-decoration: none;
+}
+.cRedes .rowRedes a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerIndex .mayorista,
+.header .mayorista,
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.headerIndex,
+.header {
+  background-color: #f2f4f4;
+  font-size: 20px;
+}
+.headerIndex .mayorista,
+.header .mayorista {
+  color: #fff;
+  background-color: #000;
+  height: 40px;
+}
+.headerIndex .mayorista h3,
+.header .mayorista h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.headerIndex .nav-ColorRgba,
+.header .nav-ColorRgba {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerIndex .container-fluid,
+.header .container-fluid {
+  width: 35%;
+}
+.headerIndex .container-fluid a,
+.header .container-fluid a {
+  color: #000;
+}
+.headerIndex .container-fluid a img,
+.header .container-fluid a img {
+  width: 120px;
+  height: 60px;
+}
+.headerIndex .container-fluid .li-sinEstilo,
+.header .container-fluid .li-sinEstilo {
+  list-style-type: none;
+}
+.headerIndex .container-fluid .ultimoA,
+.header .container-fluid .ultimoA {
+  width: 50vh;
+}
+
+.mainIndex {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.mainIndex .conElegidos .rowElegidos .colElegidos {
+  text-align: center;
+  height: 100px;
+}
+.mainIndex .conElegidos .rowElegidos .colElegidos h1 hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #000;
+  opacity: 1;
+}
+.mainIndex .contenedorPreguntas {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  height: 200px;
+}
+.mainIndex .contenedorPreguntas .rowPreguntas {
+  width: 90%;
+}
+.mainIndex .contenedorPreguntas .colPreguntas .btn-Encuadro,
+.mainIndex .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
+  padding: 30px 30px;
+  width: 240px;
+  height: 150px;
+  font-size: 20px;
+  margin: 0px 20px;
+  box-shadow: 0.1px 10px 17px -9px #000;
+}
+.mainIndex .contCarusel .rowCarusel .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+.mainIndex .contCarusel .rowCarusel .carousel-indicators button {
+  background-color: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.mainIndex .contCarusel .rowCarusel .carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+.mainIndex .contCarusel .rowCarusel .btn-negro {
+  color: #000;
+}
+.mainIndex .cInsta {
+  margin-bottom: 20px;
+  height: 140px;
+}
+.mainIndex .cInsta .colUserInsta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainIndex .cInsta .colUserInsta .pUserInsta {
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+.mainNosotros .colImgCuadro img {
+  width: 312px;
+  left: 607px;
+  top: 196px;
+  height: fit-content;
+}
+
+.mainNosotros .colTextoPresentacion {
+  width: 50%;
+
+  text-align: justify;
+}
+.mainNosotros .colTextoPresentacion p {
+  font-size: 17px;
+}
+
+.mainNosotros form {
+  font-size: 24px;
+}
+.mainNosotros form label {
+  font-weight: bold;
+}
+.mainNosotros form .btn-enviar {
+  width: 100%;
+  box-shadow: 0.1px 6px 17px -9px #000;
+}
+
+.mainComoComprar {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainComoComprar .contenedorNumeros {
+  margin-bottom: 30px;
+}
+.mainComoComprar .contenedorNumeros .pComprar-width {
+  width: 52%;
+}
+.mainComoComprar .imgCirculos {
+  width: 74%;
+  margin-left: 20px;
+}
+
+.headerIndex .mayorista,
+.header .mayorista,
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.headerIndex,
+.header {
+  background-color: #f2f4f4;
+  font-size: 20px;
+}
+.headerIndex .mayorista,
+.header .mayorista {
+  color: #fff;
+  background-color: #000;
+  height: 40px;
+}
+.headerIndex .mayorista h3,
+.header .mayorista h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.headerIndex .nav-ColorRgba,
+.header .nav-ColorRgba {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerIndex .container-fluid,
+.header .container-fluid {
+  width: 35%;
+}
+.headerIndex .container-fluid a,
+.header .container-fluid a {
+  color: #000;
+}
+.headerIndex .container-fluid a img,
+.header .container-fluid a img {
+  width: 120px;
+  height: 60px;
+}
+.headerIndex .container-fluid .li-sinEstilo,
+.header .container-fluid .li-sinEstilo {
+  list-style-type: none;
+}
+.headerIndex .container-fluid .ultimoA,
+.header .container-fluid .ultimoA {
+  width: 50vh;
+}
+
+.mainCorpinosTriangulitos .contCorpinos {
+  display: flex;
+  justify-content: center;
+}
+.mainCorpinosTriangulitos .contCorpinos .rowCorpinos {
+  width: 78%;
+}
+
+.mainCorpinosTriangulitos .contProductos .rowProductos {
+  justify-content: center;
+}
+.mainCorpinosTriangulitos .contProductos .rowProductos .colProductos {
+  width: 300px;
+  margin-bottom: 50px;
+}
+.mainCorpinosTriangulitos .contProductos .rowProductos .colProductos a {
+  color: #000;
+  text-decoration: none;
+}
+.mainCorpinosTriangulitos .contProductos .rowProductos .colProductos a:visited {
+  text-decoration: none;
+  color: #000;
+}
+.mainCorpinosTriangulitos
+  .contProductos
+  .rowProductos
+  .colProductos
+  a
+  .cardBody-Borde {
+  border: solid 1px #000;
+  color: #000;
+  box-shadow: 0.1px 10px 17px -9px #000;
+}
+
+.mainBerenice h2 {
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 20px;
+  color: #000;
+}
+
+.mainBerenice .colCodigo {
+  width: 308px;
+  height: 112px;
+  left: 25px;
+  top: 608px;
+  padding-top: 10px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+.mainBerenice .colCodigo p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+
+.mainBerenice .colTela {
+  width: 60px;
+  height: 60px;
+  left: 357px;
+  top: 420px;
+  background: #c4c4c4;
+}
+
+.mainBerenice .divBtn {
+  height: 120px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.mainBerenice .divBtn .btnLoQuiero {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  margin-right: 60px;
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mainBerenice .divBtn .btnLoQuiero a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mainPersonaliza .h1-center {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.mainPersonaliza .btn-Continuar {
+  width: 100%;
+  box-shadow: 0.1px 10px 17px -9px #000;
+}
+.mainPersonaliza .btn-Continuar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainPersonaliza .guardamosInfo-P {
+  width: 50%;
+}
+
+.mainPersonaliza .rowGuardamosInfoPara .guardamosInfo-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.mainPersonaliza .rowGuardamosInfoPara p {
+  width: 70%;
+}
+
+.mainPersonaliza .col-tamaño {
+  width: 96px;
+  height: 45px;
+  left: 107px;
+  top: 680.13px;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.headerIndex .mayorista,
+.header .mayorista,
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainIndex .contenedorPreguntas .colPreguntas,
+.mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.headerIndex,
+.header {
+  background-color: #f2f4f4;
+  font-size: 20px;
+}
+.headerIndex .mayorista,
+.header .mayorista {
+  color: #fff;
+  background-color: #000;
+  height: 40px;
+}
+.headerIndex .mayorista h3,
+.header .mayorista h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.headerIndex .nav-ColorRgba,
+.header .nav-ColorRgba {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerIndex .container-fluid,
+.header .container-fluid {
+  width: 35%;
+}
+.headerIndex .container-fluid a,
+.header .container-fluid a {
+  color: #000;
+}
+.headerIndex .container-fluid a img,
+.header .container-fluid a img {
+  width: 120px;
+  height: 60px;
+}
+.headerIndex .container-fluid .li-sinEstilo,
+.header .container-fluid .li-sinEstilo {
+  list-style-type: none;
+}
+.headerIndex .container-fluid .ultimoA,
+.header .container-fluid .ultimoA {
+  width: 50vh;
+}
+
+.gracias .contGracias {
+  margin-top: 40px;
+}
+.gracias .contGracias .rowGracias .colGraciasIzq {
+  background-image: url(../imgs/gifGracias.gif);
+  background-size: cover;
+  height: 600px;
+}
+.gracias .contGracias .rowGracias .colGraciasDere {
+  display: flex;
+  align-items: center;
+}
+.gracias .contGracias .rowGracias .colGraciasDere .rowTexto {
+  width: 70%;
+}

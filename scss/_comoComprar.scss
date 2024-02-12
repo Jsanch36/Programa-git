@@ -1,0 +1,18 @@
+.mainComoComprar {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contenedorNumeros {
+    margin-bottom: 30px;
+    .pComprar-width {
+      width: 52%;
+    }
+  }
+
+  .imgCirculos {
+    width: 74%;
+    margin-left: 20px;
+  }
+}
